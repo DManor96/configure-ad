@@ -24,30 +24,35 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Create a Domain Admin user within the domain
 - Join VM to the domain
 - Set up Remote Desktop for non-admin users on VM
-- Create additional users and attempt to log in as a user 
+- Create additional users with PowerShell 
 
 <h2>Deployment and Configuration Steps</h2>
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Install Active Directory Services on Virtual Machine 1
+</p>
+</p><img width="783" height="556" alt="Screenshot 2026-01-27 184016" src="https://github.com/user-attachments/assets/50a72dd3-3d35-4fba-90ff-ac511e7f14ff" />
+</p>
+<br />
+</p>
+<p>
+Create an admin account
+</p>
+<p>
+<img width="461" height="217" alt="Screenshot 2026-01-28 031341" src="https://github.com/user-attachments/assets/fb98086e-3be9-4a9c-9802-a1a7b767c831" />
+
+<p>
+Create a new Organizational Unit (OU) in Active Directory and Computers (ADUC)
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<img width="1102" height="834" alt="Screenshot 2026-01-28 045822" src="https://github.com/user-attachments/assets/82c139a6-cedd-4f71-928b-a1a333b95b50" />
+
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Create users with PowerShell
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p><img width="1641" height="958" alt="Screenshot 2026-01-28 050157" src="https://github.com/user-attachments/assets/e34b3b99-c9d4-434e-b595-2a93ef5b7ad4" />
 </p>
 <br />
